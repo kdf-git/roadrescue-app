@@ -21,13 +21,13 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold mb-3 text-yellow-400">Support</h4>
           <ul className="space-y-1 text-sm text-gray-300">
-            <li><a href="tel:8626584395" className="hover:text-white">24/7 Emergency Line</a></li>
+            <li><a href="tel:+19735247656" className="hover:text-white">24/7 Emergency Line</a></li>
             <li><Link href="/service-areas" className="hover:text-white">Service Areas</Link></li>
             <li><Link href="/pricing" className="hover:text-white">Pricing</Link></li>
             <li><Link href="/faq" className="hover:text-white">FAQ</Link></li>
           </ul>
           <div className="mt-4 text-sm text-gray-300">
-            <p className="font-semibold text-white">(862) 658-4395</p>
+            <p className="font-semibold text-white">+1 (973) 524-7656</p>
             <p>Available 24/7</p>
             <p>help@roadrescue.com</p>
           </div>

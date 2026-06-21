@@ -64,8 +64,8 @@ export default function PricingPage() {
         <div className="mt-12 bg-yellow-50 border border-yellow-200 rounded-2xl p-8 text-center">
           <h2 className="text-2xl font-bold text-[#1a3a5c] mb-3">Need a Custom Quote?</h2>
           <p className="text-gray-600 mb-6">Long-distance towing, specialty vehicles, or complex situations — call us for an accurate quote.</p>
-          <a href="tel:8626584395" className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold px-8 py-4 rounded-full shadow transition-colors">
-            Call (862) 658-4395
+          <a href="tel:+19735247656" className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold px-8 py-4 rounded-full shadow transition-colors">
+            Call +1 (973) 524-7656
           </a>
         </div>
       </section>

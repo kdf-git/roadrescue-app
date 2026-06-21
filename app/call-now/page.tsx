@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Call Now – Emergency Tire Service | RoadRescue",
-  description: "Flat tire? We come to you! Emergency mobile tire repair available 24/7. Call (862) 658-4395 now.",
+  description: "Flat tire? We come to you! Emergency mobile tire repair available 24/7. Call +1 (973) 524-7656 now.",
 };
 
-const PHONE = "(862) 658-4395";
-const PHONE_TEL = "tel:+18626584395";
+const PHONE = "+1 (973) 524-7656";
+const PHONE_TEL = "tel:+19735247656";
 
 export default function CallNowPage() {
   return (

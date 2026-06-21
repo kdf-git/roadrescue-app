@@ -24,7 +24,7 @@ export default function TermsPage() {
             { title: "7. Cancellations", body: "You may cancel a service request before a technician is dispatched at no charge. Cancellations after dispatch may incur a trip fee." },
             { title: "8. Privacy", body: "Your personal information is collected and used in accordance with our Privacy Policy. By using our services, you consent to the collection and use of your information as described." },
             { title: "9. Changes to Terms", body: "RoadRescue reserves the right to modify these Terms at any time. Continued use of our services after changes constitutes acceptance of the updated Terms." },
-            { title: "10. Contact", body: "For questions about these Terms, contact us at help@roadrescue.com or call (862) 658-4395." },
+            { title: "10. Contact", body: "For questions about these Terms, contact us at help@roadrescue.com or call +1 (973) 524-7656." },
           ].map((section) => (
             <div key={section.title}>
               <h2 className="text-xl font-bold text-[#1a3a5c] mb-2">{section.title}</h2>

@@ -49,7 +49,7 @@ export default function Home() {
           ))}
         </div>
         <a
-          href="tel:8626584395"
+          href="tel:+19735247656"
           className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold text-lg px-10 py-4 rounded-full shadow-lg transition-colors"
         >
           Get Help Now
@@ -82,8 +82,8 @@ export default function Home() {
       {/* Contact CTA */}
       <section id="contact" className="bg-[#1a3a5c] text-white py-16 px-6 text-center">
         <h2 className="text-3xl font-bold mb-4">Emergency Contact</h2>
-        <a href="tel:8626584395" className="text-4xl font-extrabold text-yellow-400 hover:text-yellow-300 block mb-2">
-          (862) 658-4395
+        <a href="tel:+19735247656" className="text-4xl font-extrabold text-yellow-400 hover:text-yellow-300 block mb-2">
+          +1 (973) 524-7656
         </a>
         <p className="text-gray-300 mb-2">Available 24/7</p>
         <a href="mailto:help@roadrescue.com" className="text-gray-400 hover:text-white transition-colors">

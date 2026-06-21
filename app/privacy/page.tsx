@@ -22,7 +22,7 @@ export default function PrivacyPage() {
             { title: "5. Data Security", body: "We implement industry-standard security measures to protect your personal information. However, no method of transmission over the internet is 100% secure." },
             { title: "6. Your Rights", body: "You have the right to access, correct, or delete your personal information. Contact us at help@roadrescue.com to make a request." },
             { title: "7. Cookies", body: "Our website uses cookies to improve your browsing experience. You can disable cookies in your browser settings, though this may affect site functionality." },
-            { title: "8. Contact Us", body: "For privacy questions or concerns, contact us at help@roadrescue.com or call (862) 658-4395." },
+            { title: "8. Contact Us", body: "For privacy questions or concerns, contact us at help@roadrescue.com or call +1 (973) 524-7656." },
           ].map((section) => (
             <div key={section.title}>
               <h2 className="text-xl font-bold text-[#1a3a5c] mb-2">{section.title}</h2>
