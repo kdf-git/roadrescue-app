@@ -6,6 +6,7 @@
   <title>Jump Start & Battery Service – Roadside Assistance | RoadRescue</title>
   <meta name="description" content="Dead battery? We come to you! Emergency jump start and mobile battery replacement in NJ. Call +1 (973) 524-7656 now.">
   <link rel="icon" href="/favicon.ico">
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FGGQMWMMDN"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -19,10 +20,12 @@
     html { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; line-height: 1.5; }
     body { background: #f9fafb; color: #101828; -webkit-font-smoothing: antialiased; }
     .min-h-screen { min-height: 100vh; }
+    /* Header */
     .header { background: #1a3a5c; color: white; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 50; box-shadow: 0 4px 6px -1px rgba(0,0,0,.1); }
     .brand { font-size: 1.5rem; font-weight: 700; }
     .phone-badge { background: #fac800; color: #1a3a5c; font-weight: 700; padding: .5rem 1.25rem; border-radius: 9999px; font-size: .875rem; text-decoration: none; transition: background .2s; }
     .phone-badge:hover { background: #ffe02a; }
+    /* Hero */
     .hero { background: linear-gradient(135deg, #dc2626, #9b1c1c); color: white; padding: 5rem 1.5rem; text-align: center; }
     .hero h1 { font-size: 2.25rem; font-weight: 800; margin-bottom: 1rem; }
     .hero p { font-size: 1.125rem; color: #ffe2e2; margin-bottom: 2rem; }
@@ -30,10 +33,12 @@
     .cta-big:hover { background: #ffe02a; }
     @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.8} }
     .hero-sub { margin-top: 1rem; font-size: .875rem; color: #ffcaca; }
+    /* Trust badges */
     .badges { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 2.5rem; }
     .badge { background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2); border-radius: .75rem; padding: 1rem 1.5rem; text-align: center; max-width: 16rem; }
     .badge-title { font-weight: 700; font-size: 1.125rem; }
     .badge-desc { color: #ffe2e2; font-size: .875rem; margin-top: .25rem; }
+    /* Section */
     .section { padding: 4rem 1.5rem; }
     .section-white { background: white; }
     .section-gray { background: #f9fafb; }
@@ -56,15 +61,19 @@
     .mt-10 { margin-top: 2.5rem; }
     .cta-red { display: inline-block; background: #e40014; color: white; font-weight: 700; font-size: 1.125rem; padding: 1rem 2.5rem; border-radius: 9999px; text-decoration: none; box-shadow: 0 4px 6px -1px rgba(0,0,0,.1); transition: background .2s; }
     .cta-red:hover { background: #bf000f; }
+    /* Final CTA */
     .cta-dark { background: #1a3a5c; color: white; padding: 4rem 1.5rem; text-align: center; }
     .cta-dark h2 { font-size: 1.875rem; font-weight: 700; margin-bottom: .75rem; }
     .cta-dark p { color: #d1d5dc; margin-bottom: 2rem; }
     .cta-dark .meta { color: #99a1af; font-size: .875rem; margin-top: 1rem; }
+    /* Footer */
     .footer { background: #0f2240; color: white; padding: 1.5rem; text-align: center; font-size: .875rem; }
     .footer .brand { font-weight: 600; }
     .footer .gray { color: #99a1af; }
     .footer .yellow { color: #fac800; font-weight: 700; margin-top: .25rem; }
     .footer .dim { color: #6a7282; margin-top: .25rem; }
+    .footer-link { color: #99a1af; text-decoration: none; }
+    .footer-link:hover { color: #fac800; text-decoration: underline; }
     @media (min-width: 768px) {
       .hero h1 { font-size: 3rem; }
     }
@@ -72,54 +81,112 @@
 </head>
 <body>
   <div class="min-h-screen">
+    <!-- Header -->
     <header class="header">
       <span class="brand">RoadRescue</span>
-      <a href="tel:+19735247656" class="phone-badge">+1 (973) 524-7656</a>
+      <a href="tel:+197****7656" class="phone-badge">+1 (973) 524-7656</a>
     </header>
+
+    <!-- Hero -->
     <section class="hero">
       <h1>Dead Battery? We Come to You!</h1>
       <p>Emergency jump start and mobile battery replacement at your location</p>
-      <a href="tel:+19735247656" class="cta-big">Tap to Call +1 (973) 524-7656</a>
+      <a href="tel:+197****7656" class="cta-big">Tap to Call +1 (973) 524-7656</a>
       <p class="hero-sub">Available 24/7</p>
       <div class="badges">
-        <div class="badge"><p class="badge-title">Available 24/7</p><p class="badge-desc">Service anytime, day or night</p></div>
-        <div class="badge"><p class="badge-title">We Come to You</p><p class="badge-desc">Mobile service at your exact location</p></div>
-        <div class="badge"><p class="badge-title">Fast Response</p><p class="badge-desc">Quick arrival, usually under 30 min</p></div>
+        <div class="badge">
+          <p class="badge-title">Available 24/7</p>
+          <p class="badge-desc">Service anytime, day or night</p>
+        </div>
+        <div class="badge">
+          <p class="badge-title">We Come to You</p>
+          <p class="badge-desc">Mobile service at your exact location</p>
+        </div>
+        <div class="badge">
+          <p class="badge-title">Fast Response</p>
+          <p class="badge-desc">Quick arrival, usually under 30 min</p>
+        </div>
       </div>
     </section>
+
+    <!-- Services -->
     <section class="section section-white">
       <div class="container">
         <h2 class="section-title">Jump Start & Battery Services</h2>
         <div class="grid-2">
-          <div class="service-card"><span class="service-icon">&#9889;</span><div><h3 class="service-title">Jump Start Service</h3><p class="service-desc">Quick battery boost to get your engine running again</p></div></div>
-          <div class="service-card"><span class="service-icon">&#128267;</span><div><h3 class="service-title">Battery Replacement</h3><p class="service-desc">We bring a new battery and install it on-site</p></div></div>
-          <div class="service-card"><span class="service-icon">&#128200;</span><div><h3 class="service-title">Battery Testing</h3><p class="service-desc">Free battery health check and diagnostics</p></div></div>
-          <div class="service-card"><span class="service-icon">&#128663;</span><div><h3 class="service-title">Emergency Roadside</h3><p class="service-desc">Full roadside assistance for any battery emergency</p></div></div>
+          <div class="service-card">
+            <span class="service-icon">&#9889;</span>
+            <div>
+              <h3 class="service-title">Jump Start Service</h3>
+              <p class="service-desc">Quick battery boost to get your engine running again</p>
+            </div>
+          </div>
+          <div class="service-card">
+            <span class="service-icon">&#128267;</span>
+            <div>
+              <h3 class="service-title">Battery Replacement</h3>
+              <p class="service-desc">We bring a new battery and install it on-site</p>
+            </div>
+          </div>
+          <div class="service-card">
+            <span class="service-icon">&#128200;</span>
+            <div>
+              <h3 class="service-title">Battery Testing</h3>
+              <p class="service-desc">Free battery health check and diagnostics</p>
+            </div>
+          </div>
+          <div class="service-card">
+            <span class="service-icon">&#128663;</span>
+            <div>
+              <h3 class="service-title">Emergency Roadside</h3>
+              <p class="service-desc">Full roadside assistance for any battery emergency</p>
+            </div>
+          </div>
         </div>
-        <div class="text-center mt-10"><a href="tel:+19735247656" class="cta-red">Call Now for Immediate Help</a></div>
+        <div class="text-center mt-10">
+          <a href="tel:+197****7656" class="cta-red">Call Now for Immediate Help</a>
+        </div>
       </div>
     </section>
+
+    <!-- Why Us -->
     <section class="section section-gray">
       <div class="container">
         <h2 class="section-title">Why Call RoadRescue?</h2>
         <div class="grid-3">
-          <div class="why-card"><div class="why-icon">&#9989;</div><h3 class="why-title">Trusted Service</h3><p class="why-desc">Licensed, insured, and experienced technicians</p></div>
-          <div class="why-card"><div class="why-icon">&#9889;</div><h3 class="why-title">Fast Response</h3><p class="why-desc">Average arrival time under 30 minutes</p></div>
-          <div class="why-card"><div class="why-icon">&#128336;</div><h3 class="why-title">Always Available</h3><p class="why-desc">24/7 emergency service, no exceptions</p></div>
+          <div class="why-card">
+            <div class="why-icon">&#9989;</div>
+            <h3 class="why-title">Trusted Service</h3>
+            <p class="why-desc">Licensed, insured, and experienced technicians</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">&#9889;</div>
+            <h3 class="why-title">Fast Response</h3>
+            <p class="why-desc">Average arrival time under 30 minutes</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">&#128336;</div>
+            <h3 class="why-title">Always Available</h3>
+            <p class="why-desc">24/7 emergency service, no exceptions</p>
+          </div>
         </div>
       </div>
     </section>
+
+    <!-- Final CTA -->
     <section class="cta-dark">
       <h2>Don't Wait - Get Help Now!</h2>
       <p>Professional mobile jump start and battery service at your location</p>
-      <a href="tel:+19735247656" class="cta-big" style="animation: none;">Tap to Call +1 (973) 524-7656</a>
+      <a href="tel:+197****7656" class="cta-big" style="animation: none;">Tap to Call +1 (973) 524-7656</a>
       <p class="meta">Available 24/7 &bull; Fast Response &bull; Professional Service</p>
     </section>
+
+    <!-- Footer -->
     <footer class="footer">
       <p class="brand">RoadRescue</p>
       <p class="gray">Emergency Roadside Assistance &bull; Mobile Jump Start & Battery</p>
       <p class="yellow">+1 (973) 524-7656</p>
-      <p class="dim">Licensed &bull; Insured &bull; Available 24/7</p>
+      <p class="dim"><a href="/terms.html" class="footer-link">Terms of Service</a> &bull; <a href="/privacy.html" class="footer-link">Privacy Policy</a> &bull; Licensed &bull; Insured &bull; Available 24/7</p>
     </footer>
   </div>
 </body>
