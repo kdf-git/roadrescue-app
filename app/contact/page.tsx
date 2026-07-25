@@ -3,7 +3,6 @@ import Footer from "../components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = { title: "Contact | RoadRescue", description: "Get in touch with RoadRescue for 24/7 roadside assistance." };
-
 export default function ContactPage() {
   return (
     <>
@@ -20,7 +19,7 @@ export default function ContactPage() {
               <span className="text-3xl">📞</span>
               <div>
                 <p className="font-semibold">Emergency Line (24/7)</p>
-                <a href="tel:+19735247656" className="text-red-600 font-bold text-xl hover:text-red-700">+1 (973) 524-7656</a>
+                <a href="tel:+19737940012" className="text-red-600 font-bold text-xl hover:text-red-700">+1 (973) 794-0012</a>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -46,10 +45,10 @@ export default function ContactPage() {
             </div>
           </div>
           <a
-            href="tel:+19735247656"
+            href="tel:+19737940012"
             className="mt-8 inline-block bg-red-600 hover:bg-red-700 text-white font-bold px-8 py-4 rounded-full shadow transition-colors"
           >
-            Call Now — +1 (973) 524-7656
+            Call Now — +1 (973) 794-0012
           </a>
         </div>
         <div className="bg-gray-50 rounded-2xl p-8 border border-gray-100">
@@ -74,7 +73,7 @@ export default function ContactPage() {
             <button type="submit" className="w-full bg-[#1a3a5c] text-white font-bold py-3 rounded-lg hover:bg-[#0f2240] transition-colors">
               Send Message
             </button>
-            <p className="text-xs text-gray-400 text-center">For emergencies, please call directly — +1 (973) 524-7656</p>
+            <p className="text-xs text-gray-400 text-center">For emergencies, please call directly — +1 (973) 794-0012</p>
           </form>
         </div>
       </section>

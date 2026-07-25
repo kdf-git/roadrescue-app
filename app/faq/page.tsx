@@ -32,8 +32,8 @@ export default function FaqPage() {
         ))}
         <div className="text-center pt-8">
           <p className="text-gray-600 mb-4">Still have questions? Call us directly.</p>
-          <a href="tel:+19735247656" className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold px-8 py-4 rounded-full shadow transition-colors">
-            Call +1 (973) 524-7656
+          <a href="tel:+19737940012" className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold px-8 py-4 rounded-full shadow transition-colors">
+            Call +1 (973) 794-0012
           </a>
         </div>
       </section>
