@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Record timeout="12" maxLength="30" playBeep="false" />
+  <Hangup/>
+</Response>
